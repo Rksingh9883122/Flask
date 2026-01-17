@@ -1,0 +1,10 @@
+{%extends "base.html"%}
+{%block title%}Other Page{%endblock%}
+{%block content%}
+     <ul>
+        {%for name in myname%}
+        <li>{{name}}</li>
+        {%endfor%}
+    </ul>
+    <p>{{myname}}</p>
+{%endblock%}
